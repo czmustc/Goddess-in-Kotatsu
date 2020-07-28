@@ -1,0 +1,7 @@
+**/*.rpyb
+**/*.rpyc
+**/*.rpymc
+errors.txt
+log.txt
+traceback.txt
+**/saves
