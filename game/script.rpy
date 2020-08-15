@@ -6,21 +6,13 @@
 
 label start:
 
-    # 显示一个背景。此处默认显示占位图，但您也可以在图片目录添加一个文件
-    # （命名为“bg room.png”或“bg room.jpg”）来显示。
-
-    scene bg room
-
-    # 显示角色立绘。此处使用了占位图，但您也可以在图片目录添加命名为
-    # “eileen happy.png”的文件来将其替换掉。
-
-    show eileen happy
-
-    # 此处显示各行对话。
-
-    e "您已创建一个新的 Ren'Py 游戏。"
-
-    e "当您完善了故事、图片和音乐之后，您就可以向全世界发布了！"
+    # call scene1
+    call scene2
+    # call scene3
+    # call scene4
+    # call scene5
+    # call scene6
+    # call scene7
 
     # 此处为游戏结尾。
 
