@@ -1,9 +1,9 @@
 label scene2:
     scene bg 樱花大道
-    # play music 日常风格
+    play music daily
     show 小鞠 
     narrator "平凡得不能再平凡的女孩子，北村小鞠，走在她走过了不知道多少次甚至可以数清有多少块砖的上学路上。"
-    play sound "audio/拉弓射箭.ogg"
+    play sound arrow_hit
     show 小鞠 
     小鞠 "噫！！！！！"
     show 小鞠 
@@ -66,7 +66,7 @@ label scene2:
     小鞠 "~诶？"
     narrator "可怜的小鞠同学。大脑已经因为太多的信息量宕机了。"
     narrator "但是也正是因为宕机了，所以才立刻执行了精英天使阳菜的命令。"
-    play sound 箭矢击中
+    play sound arrow_hit
     show text "Headshot！" at truecenter
     pause
     hide text
@@ -75,7 +75,7 @@ label scene2:
     show 小鞠 
     show 阳菜 at right
     阳菜 "小鞠大人试试躯干或者腿？不同人弱点部位不同的！"
-    play sound 箭矢击中
+    play sound arrow_hit
     show 小鞠 
     show 阳菜 at right
     小鞠 "吔我龙神之箭！"

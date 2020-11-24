@@ -13,4 +13,5 @@ init:
 
     image 小鞠 = im.Scale("小鞠.png", 345, 460)
 
-    define audio.箭矢击中 = "audio/拉弓射箭.ogg"
+    define audio.arrow_hit = "audio/拉弓射箭.ogg"
+    define audio.daily = "audio/日常.mp3"
