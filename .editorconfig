@@ -2,5 +2,5 @@
 end_of_line = crlf
 charset = utf-8
 indent_size = 4
-indent_style = tab
+indent_style = space
 insert_final_newline = true

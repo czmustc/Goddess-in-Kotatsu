@@ -53,7 +53,7 @@ define gui.interface_text_color = '#ffffff'
 ## 字体和字体大小 #####################################################################
 
 ## 用于游戏内文本的字体。
-define gui.text_font = "SourceHanSans-Light-Lite.ttf"
+define gui.text_font = "wqy-microhei.ttc"
 
 ## 用于角色名称的字体。
 define gui.name_text_font = "SourceHanSans-Light-Lite.ttf"
