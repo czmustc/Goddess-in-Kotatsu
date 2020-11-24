@@ -7,11 +7,11 @@
 label start:
 
     # call scene1
-    call scene2 from _call_scene2
+    call scene2
     # call scene3
     # call scene4
     # call scene5
-    call scene6 from _call_scene6
+    call scene6
     # call scene7
 
     # 此处为游戏结尾。

@@ -13,7 +13,7 @@ label scene6:
     中年男 "……教学楼可不会教人……"
     中年男 "……TheFifthBuildingforTeaching……"
     中年男 "……物业也不找会英语的人翻译就用了翻译软件……"
-    play sound 笑
+    play sound laugh
     narrator "众人哄笑起来：班里班外充满了快活的空气。"
     
     scene bg 黑
@@ -39,7 +39,7 @@ label scene6:
     
     scene bg 黑
     narrator "能听见被捏断的粉笔掉在粉笔槽上的声音外加演讲者的一声叹气。"
-    play sound 下楼
+    # play sound 下楼
     narrator "虽然很无奈，但是对不起！！！我边默念边跑了起来。瞥了一眼还停在一楼的电梯，等不及了。我咚咚咚地几节台阶几节台阶地跳着，很快便下到了一楼。"
     
     scene bg 五教
@@ -48,7 +48,7 @@ label scene6:
     scene bg 白
     
     scene bg 理化大楼天台
-    play sound 开门
+    # play sound 开门
     narrator "我推开了天台的大门。并没有什么螺旋升天的把主角抛下的直升机，也没有被niceboat了的诚哥。"
     show 黑菜 at left
     show 猪笼草
@@ -58,12 +58,12 @@ label scene6:
     narrator "Howoldareyou?怎么老是你这个磨人的小恶魔？"
     show 黑菜 at left
     show 猪笼草 at right
-    play sound 吞咽
+    # play sound 吞咽
     narrator "我正吐槽，猪笼草像是蓄满了CD一样，一口把珪子吞了进去。"
     show 小鞠 at left
     show 阳菜 at right
     小鞠 "啊！珪子？！"
-    play sound 倒地
+    # play sound 倒地
     narrator "我眼睁睁地看着珪子被吞了进去，瘫倒在地，瞬间感觉天崩地裂。"
     阳菜 "不要丧气啊小鞠大人！珪子大人还活着，消化要时间的！"
     小鞠 "可是我怎么去对付这个怪兽啊？"
@@ -71,20 +71,20 @@ label scene6:
     小鞠 "了解！"
     
     scene bg 黑
-    play sound 加载
+    # play sound 加载
     show text "神枪手小鞠已上线。BattleStart!" at truecenter
     
     scene bg 理化大楼天台
     show 猪笼草 at left
     show 小鞠 at right
-    play sound 射击
+    # play sound 射击
     narrator "怪物跳在空中，然而变身神枪手的我早就借助枪的瞄准镜看到了内部邪恶的景象，直接使用比火神机枪速度还快的手速扣动扳机射击小舌头，硬是把一个半自动手枪打成了冲锋枪。怪物在此种爆发的冲击力下立刻就被打出了硬直。"
     阳菜 "小鞠大人！就是现在！"
-    play sound 射击
+    # play sound 射击
     narrator "怪物的脑瓜顶边转着星星边晃悠着，然后又是被我一通爆射，枪枪命中。甚至在怪物从硬直恢复之前，它的血槽就近乎归零了。"
-    play sound 充能
+    # play sound 充能
     narrator "我弹了一枚硬币出来，然后利用心意系统在周围加上了极强的电磁场。"
-    play sound 超电磁炮
+    # play sound 超电磁炮
     小鞠 "发射！——"
     show 小鞠 at right
     narrator "硬币贯穿了怪物，将血槽打到了负数。怪物如同一滩烂泥掉在了天台上，逐渐化为灰烬消散。"
@@ -130,6 +130,6 @@ label scene6:
     show 阳菜
     narrator "看着二人手牵手出了天台，阳菜一脸感动地躲在角落像看肥皂剧般边吃着爆米花边擦着眼泪，这场闹剧终于落下了帷幕。阳菜站起身来。"
     阳菜 "真是太好了呢小鞠大人，祝你们二人幸终的说！"
-    play sound 经典消失
+    # play sound 经典消失
     show none
     narrator "撒下天使的羽毛，阳菜在空中消去了身影。"

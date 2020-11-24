@@ -20,13 +20,13 @@ label scene2:
     narrator "{size=-10}然而现在做得这么完美也对于足以摧毁二人的命运的255支箭矢没有什么卯月。{/size}"
     阳菜 "拔萝卜~拔萝卜~嘿哟嘿哟~拔萝卜~"
     
-    # scene bg 落水.jpg
+    scene bg 落水
     narrator "有着天使力量的阳菜一发力立刻就将小鞠从地里拔了出来。"
     narrator "只是，似乎有点用力过猛，小鞠从地里被拔出来的时候并不是倒在坑旁边，而是直接飞了起来。"
     narrator "目标：樱花大道边上的小溪。"
-    # play sound 落水声
+    play sound fall_to_water
     narrator "小鞠在空中如同一个圆盘一样，优美地旋转了三周半，垂直入水落入小溪，激起一丝丝水花。"
-    # play sound 响铃声
+    play sound ringing
     narrator "{size=+10}10分10分10分！{/size}"
     阳菜 "呜哇！小鞠大人没事吧！"
     
@@ -39,7 +39,7 @@ label scene2:
     narrator "阳菜拍了拍小鞠的脸蛋，总算把还不明现状的小鞠从懵逼中拍了出来。"
     narrator "正当阳菜在思考如何好好向小鞠传达自己不小心射了255支丘比特之箭所以今天事情会变得比较麻烦的时候，小鞠已经被另一声怒喝给重新整懵逼过去了。"
     stop music
-    # play music \*随便找个HS的BGM*\
+    play music hs
     show 路人妹子A at left
     show 小鞠 
     show 阳菜 at right
