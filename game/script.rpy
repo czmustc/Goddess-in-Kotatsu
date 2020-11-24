@@ -11,7 +11,7 @@ label start:
     # call scene3
     # call scene4
     # call scene5
-    # call scene6
+    call scene6
     # call scene7
 
     # 此处为游戏结尾。

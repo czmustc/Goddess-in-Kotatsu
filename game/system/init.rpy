@@ -15,3 +15,4 @@ init:
 
     define audio.arrow_hit = "audio/拉弓射箭.ogg"
     define audio.daily = "audio/日常.mp3"
+    define audio.hs = "audio/hs.mp3"
